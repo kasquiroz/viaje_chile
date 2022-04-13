@@ -1,0 +1,123 @@
+::-webkit-scrollbar {
+  display: none;
+}
+
+* {
+  border: 0px;
+  padding: 0px;
+  margin: 0px;
+}
+
+/*BARRA DE NAVEGACION*/
+
+#navlink1, #navlink2, #navlink3, #navlink4 {
+  color: #fff;
+}
+
+.nav-item {
+  border-radius: 5px;
+}
+
+.nav-item:hover {
+  background-color: rgba(255,255,255,.2);
+}
+
+.img-w50px {
+  width: 25px;
+  filter: invert(100%);
+}
+
+.menu-item {
+  margin-left: 20px;
+}
+
+.enlace-menu-item {
+  text-decoration: none;
+  color: white;
+}
+
+/*FIN BARRA DE NAVEGACION*/
+
+/*HERO SECTION*/
+
+header {
+  background-image: url(../img/bg-hero.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  font-family: "Raleway", sans-serif;
+  text-align: right;
+  color: white;
+
+  padding-top: 52px;
+  padding-bottom: 4rem;
+  padding-right: 4rem;
+}
+
+header h1 {
+  font-size: 3.5em;
+}
+
+header h2 {
+  margin-top: 40px;
+  font-size: 2.5em;
+  font-weight: lighter;
+}
+
+/*FIN HERO SECTION*/
+
+/*DONDE NOS JUNTAMOS*/
+.contenedor-seccion {
+  padding: 70px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.contenedor-seccion p {
+  text-align: center;
+}
+/*FIN DONDE NOS JUNTAMOS*/
+
+/*PROXIMA CHARLA*/
+#proxima-charla {
+  background-color: #a4452c;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*FIN PROXIMA CHARLA*/
+
+/*SECCION DE ICONOS*/
+.iconos-horizontales {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.iconos-horizontales p {
+  margin: 100px;
+}
+/*FIN SECCION DE ICONOS*/
+
+.fs-7 {
+  font-size: 11px;
+}
+
+.fs-65 {
+  font-size: 10px;
+}
+
+.text-shadow {
+  text-shadow: 1px 2px 3px #5e5e5e;
+}
+
+.text-lightgrey {
+  color: #b9b9b9;
+}
+
+#speaker {
+  width: 200px;
+}

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="assets/img/favicon.png" type="image/png" style="filter: invert(100%)"/>
+    <meta name="keywords" content="charla, café, simpsio, innovación, tecnología"/>
+    <meta name="description" content="Charlas de tecnología" />
+    <meta name="author" content="Germán Trigo" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;500&display=swap" rel="stylesheet"/>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-brands/css/uicons-brands.css'>
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>Meet & Coffee</title>
+  </head>
+  <body>
+    <nav>
+      <!--ul>li*5>a>  Esto permite hacer etiquetas anidadas  -->
+
+   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand active" href="#">
+          <img class="img-w50px" src="assets/img/coffee-cup.svg" alt="Meet & coffee Home"/>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" id="navlink1" href="#">Ubicación</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="navlink2" href="#">Próxima Charla</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="navlink3" href="#">Eventos Anteriores</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="navlink4" href="#">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header>
+      <h1 class="fs-2 text-shadow">Descubre lo último en tecnología
+      <br>bebiendo café</h1>
+      <h2 class="fs-5 text-lightgrey text-shadow fw-normal">Charlas, eventos y simposios sobre tecnología</h2>
+    </header>
+
+    <section>
+      <div class="contenedor-seccion bg-light">
+        <img class="rounded" src="assets/img/we-work.jpg" alt="casa" width="300" />
+        <h2 class="pt-4 fs-2">¿Dónde nos juntamos?</h2>
+        <p>
+          Todos los martes y viernes, de 19:00 hrs a 22:00 hrs en <i>We Work</i>, <br>
+          Calle Baker 133, Providencia, Santiago.
+        </p>
+      </div>
+    </section>
+
+    <section class="container-fluid" id="proxima-charla">
+      <div class="row seccion-charla py-5 pe-5">
+        <div class="col-sm-6">
+          <img id="speaker" class="rounded img-fluid float-end" src="assets/img/speaker.jpg" alt="conferencista"/>
+        </div>
+        <div class="col-sm-6 texto-charla">
+          <h1 class="fs-3">Próxima charla</h1>
+          <h1 class="fs-4">Big Data para noobs</h1>
+          <h2 class="fs-5 fw-lighter">Rafaela Váldez</h2>
+          <h5 class="fs-7">Data scientist, PHD Theoretical Physics, Carneige Mellon University.</h5>
+          <p class="fs-6 fw-lighter">
+            En esta charla revisaremos las técnicas y tecnologías que hacen que
+            sea económico hacer frente a los datos a una escala extrema
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="container-fluid text-center bg-light p-5">
+      <h1>Eventos anteriores</h1>
+      <div class="row py-4">
+        <article class="col-sm-4">
+          <img class="rounded img-fluid" src="assets/img/simposio-vegan.jpg" alt="simposio vegan" width="200"/>
+          <h3 class="py-3 fs-5">Simposio VeganDB</h3>
+        </article>
+
+        <article class="col-sm-4">
+          <img class="rounded img-fluid" src="assets/img/machine-learning.jpg" alt="machine machine-learning" width="200"/>
+          <h3 class="py-3 fs-5">Machine-learning 101</h3>
+        </article>
+
+        <article class="col-sm-4">
+          <img class="rounded img-fluid" src="assets/img/scrum-sin-scream.jpg" alt="Scrum-sin-scream" width="200"/>
+          <h3 class="py-3 fs-5">Scrum sin scream</h3>
+        </article>
+      </div>
+    </section>
+
+    <footer class="bg-dark text-white m-0 pt-3 pb-1 text-center">
+      <span class="px-1 fs-3 fi fi-brands-github"></span>
+      <span class="px-1 fs-3 fi fi-brands-twitter"></span>
+      <span class="px-1 fs-3 fi fi-brands-linkedin"></span>
+      <h6 class="fs-7 fw-light">Meet and Coffee 2018. Todos los derechos reservados.</h6>
+    </footer>
+
+    <script defer src="https://kit.fontawesome.com/16bd88b332.js" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+  
+  </body>
+</html>
